@@ -5,10 +5,12 @@ module.exports = {
   title: 'Component Marketplace',
   tagline: '',
   url: 'https://jem-davies.github.io/',
-  baseUrl: '/component-marketplace/',
+  baseUrl: '/poc-marketplace/',
+  deploymentBranch: 'gh-pages',
   favicon: '/img/favicon.ico',
   organizationName: 'jem-davies',
   projectName: 'Component Marketplace',
+  onBrokenLinks: 'ignore',
   customFields: {
     components: {
       inputs: components("inputs"),
