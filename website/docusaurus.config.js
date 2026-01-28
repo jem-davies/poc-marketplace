@@ -13,15 +13,15 @@ module.exports = {
   onBrokenLinks: 'ignore',
   customFields: {
     components: {
-      inputs: components("inputs"),
+      //inputs: components("inputs"),
       processors: components("processors"),
-      outputs: components("outputs"),
+      //outputs: components("outputs"),
       caches: components("caches"),
-      rate_limits: components("rate_limits"),
-      buffers: components("buffers"),
-      metrics: components("metrics"),
-      tracers: components("tracers"),
-      scanners: components("scanners"),
+      //rate_limits: components("rate_limits"),
+      //buffers: components("buffers"),
+      //metrics: components("metrics"),
+      //tracers: components("tracers"),
+      //scanners: components("scanners"),
     },
   },
   themeConfig: {

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Component Marketplace</ShortName>
+  <Description>Search Component Marketplace</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://jem-davies.github.io/poc-marketplace/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://jem-davies.github.io/poc-marketplace/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://jem-davies.github.io/poc-marketplace/opensearch.xml" />
+  <moz:SearchForm>https://jem-davies.github.io/poc-marketplace/</moz:SearchForm>
+</OpenSearchDescription>
